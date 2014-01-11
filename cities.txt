@@ -1,0 +1,382 @@
+* A * (14)
+
+Aachen, Germany                                           1071,792*
+Adelaide, South Australia                                 1847,303*
+Apex, Carolina del norte                                   591,712*
+Alcorcon, Espa¤a                                          1020,733*
+Alicante, Espa¤a                                          1047,723*
+Almeria, Espa¤a                                           1036,717*
+Amsterdam, The Netherlands                                1070,807*
+Angarsk, Russia                                           1648,807*
+Aosta, Valle d'Aosta, Italia                              1084,767*
+Ashland, Kentucky                                          567,731*
+Athens, Georgia, USA                                       554,704*
+Athens,Greece                                             1177,728*
+Atlanta,  GA                                               536,703*
+Austin, Texas, USA                                         481,677*
+
+* B * (30)
+
+Badajoz, Espa¤a                                           1010,726*
+Baesweiler, Germany                                       1071,799*
+Balaguer, Lleida, Espa¤a                                  1048,744*
+Banska Bystrica, Slovakia                                 1138,787*
+Baracaldo, Espa¤a                                         1031,753*
+Barcelona, Espa¤a                                         1052,738*
+Barnaul, Russia                                           1053,788*
+Basel, Switzerland                                        1074,778*
+Batavia, Illinois, USA                                     596,750*
+Bath, England                                             1034,806*
+Baton Rouge, Louisiana                                     515,681*
+Benton, Arkansas, USA                                      519,711*
+Berlin, Germany                                           1113,800*
+Bielefeld, Germany                                        1094,797*
+Bilbao, Espa¤a                                            1036,751*
+Biysk Altai                                               1536,811*
+Bloomington, Minnesota, USA                                512,761*
+Bochum, Germany                                           1070,796*
+Bogota, Colombia                                           621,543*
+Bracknell, United Kingdom                                 1049,799*
+Bradford, England                                         1038,820*
+Brasilia, Brasil, Distrito Federal                         729,512*
+Braunschweig, North Germany                               1101,805*
+Bridgeport, Connecticut, USA                               628,744*
+Brisbane, Australia                                       1935,341*
+Brookville, Pennsylvania, USA                              592,742*
+Brugge, Belgium                                           1062,802*
+Brussels, Belgium                                         1059,789*
+Buenos Aires, Argentina                                    714,299*
+Burgos, Espa¤a                                            1029,751*
+
+* C * (22)
+
+Calgary, Alberta, Canada                                   399,795*
+Camden, Arkansas, USA                                      501,699*
+Capetown, South Africa                                    1147,309*
+Cartagena, Espa¤a                                         1045,721*
+Castell¢n, Espa¤a                                         1049,736*
+Charlotte, MI, USA                                         555,749*
+Chelyabinsk, Russia                                       1431,836*
+Cheraw, SC, USA                                            588,705*
+Cheyenne, Wyoming, USA                                     433,757*
+Chicago, IL, USA                                           541,743*
+Chihuahua, Mexico                                          415,668*
+Chilham, UK                                               1050,803*
+Cincinnati, Ohio, USA                                      562,724*
+Cologne, Germany                                          1081,792*
+Colombo, Sri Lanka                                        1504,550*
+Columbia, south Carolina, USA                              576,699*
+Columbus, Ohio                                             572,729*
+Copenhagen, Denmark                                       1111,822*
+Cordoba, Espa¤a                                           1025,722*
+Corella, Espa¤a                                           1039,746*
+Coru¤a (La), Espa¤a                                       1001,752*
+Covington, Kentucky, USA                                   576,729*
+
+* D * (10)
+
+Dallas, Texas, USA                                         484,684*
+Darmstadt, Germany                                        1080,782*
+Denver, Colorado                                           415,738*
+Des Moines, Iowa                                           524,733*
+Dos Hermanas, Sevilla, Espa¤a                             1017,718*
+Dourados, Brazil                                           704,381*
+Dragor, Denmark                                           1111,825*
+Drummondville, Quebec, Canada                              634,762*
+Dundee, Scotland, United Kingdom                          1013,833*
+Dushanbe, Tajikistan, Central Asia                        1432,727*
+
+* E * (8)
+
+Edison, NJ, USA                                            614,737*
+Edmonton Alberta, Canada                                   399,805*
+Eivissa, Espa¤a                                           1055,729*
+Elche, Alicante, Espa¤a                                   1044,722*
+El Paso, TX, USA                                           428,687*
+Endingen                                                  1082,781*
+Erie, PA, USA                                              586,745*
+Essen, NW, Germany                                        1068,794*
+
+* F * (6)
+
+Filderstadt, Germany                                      1083,783*
+Firenze, Italia                                           1107,755*
+Flensburg, Germany                                        1096,823*
+Fortaleza, Cear , Brasil                                   827,481*
+Fremont, California, USA                                   350,709*
+Fritzlar, Germany                                         1094,796*
+
+* G * (10)
+
+Garden City, Michigan, USA                                 571,750*
+Giessen, Germany                                          1086,789*
+Gilbert, AZ, USA                                           401,698*
+Girona, Espa¤a                                            1057,744*
+Glasgow, United Kingdom                                   1027,824*
+Goteborg, Sweden                                          1112,839*
+Granada, Espa¤a                                           1030,718*
+Grand Junction, Colorado, Usa                              399,744*
+Grants, NM, USA                                            420,709*
+Guestrow, Germany                                         1110,804*
+
+* H * (11)
+
+Haarlem, Holland                                          1070,809*
+Haileybury, Ontario, Canada                                591,792*
+Hamburg, North Germany                                    1120,802*
+Hannover, Germany                                         1096,804*
+Heilbronn, Germany                                        1084,781*
+Herne Bay                                                 1051,803*
+Herzogenrath                                              1073,794*
+Hoeng, Denmark                                            1111,817*
+Hong Kong, China                                          1718,644*
+Honkajoki, Finland                                        1165,862*
+Houston, Texas                                             492,676*
+
+* I * (5)
+
+Iecaba, Latvia                                            1181,828*
+Indianapolis, Indiana, USA                                 546,737*
+Innsbruck, Austria                                        1096,767*
+Irkutsk, Russia                                           1645,809*
+Issaquah, Washington, USA                                  335,766*
+
+* J * (6)
+
+Jaca, Espa¤a                                              1046,753*
+Jamestown, North Dakota                                    485,772*
+Jena, Germany                                             1105,787*
+Jerusalem, Israel                                         1249,699*
+Johannesburg, South Africa                                1200,352*
+Jorvenpoo, Finland                                        1182,854*
+
+* K * (12)
+
+Kaltenleutgeben, Austria                                  1128,776*
+Karlsruhe, Germany                                        1080,780*
+Kempten Allgaeu, Germany                                  1097,786*
+Khabarovsk, Russia                                        1827,783*
+Kiel, Germany                                             1097,819*
+Kiev, Ukraine                                             1214,790*
+Kingston, Jamaica                                          603,607*
+Kiryat Ono, Israel                                        1243,689*
+Kitchener, Ontario, Canada                                 580,756*
+Kitimat, BC, Canada                                        292,813*
+Krabbendijke, The Netherlands                             1057,796*
+Kristinehamn, Sweden                                      1116,843*
+
+* L * (19)
+
+Lakefield, Que                                             623,762*
+Lakeland, Florida, USA                                     574,664*
+La Laguna, Espa¤a                                          956,668*
+Lansing, Michigan, USA                                     556,747*
+Lebach, Germany                                           1081,778*
+Leiden, Holland                                           1071,808*
+Leipzig, Germany                                          1111,794*
+Lelystad, the Netherlands                                 1071,810*
+Lenore, West Virginia                                      573,715*
+Leonberg, Germany                                         1096,774*
+Libertyville, IL, USA                                      531,760*
+Linz, Austria                                             1120,788*
+Lisboa, Portugal                                           996,728*
+Lobnya, Russia                                            1250,835*
+Logro¤o, Espa¤a                                           1033,749*
+Loima, Finland                                            1174,856*
+London, UK                                                1050,800*
+Long Beach, California                                     366,698*
+Los Angeles, Los Angeles, USA                              364,698*
+
+* M * (21)
+
+Madison, Wisconsin, USA                                    529,751*
+Madrid, Espa¤a                                            1024,735*
+Magnitogorsk, Russia                                      1402,821*
+Mainz, Germany                                            1084,789*
+Malaga, Espa¤a                                            1026,717*
+Manzanares, Espa¤a                                        1031,728*
+Martins Ferry, Ohio, USA                                   591,737*
+Massillon, Ohio                                            576,738*
+Melbourne, Australia                                      1885,286*
+Melbourne, Florida, USA                                    577,667*
+Memphis, Tennessee, USA                                    526,711*
+Middletown, Ohio, USA                                      570,725*
+Milano, Italy                                             1094,764*
+Milazzo, Sicilia, Italia                                  1125,727*
+Minneapolis, Minnesota, USA                                507,761*
+Molde, Norway                                             1085,867*
+Montevideo, Uruguay                                        729,304*
+Montreal, Quebec, Canada                                   618,769*
+Morata de Taju¤a, Espa¤a                                  1025,732*
+Moscow, Russia                                            1269,827*
+Munich, Germany                                           1096,772*
+
+* N * (15)
+
+Naestved, Denmark                                         1108,819*
+Napa, California                                           339,720*
+Navarre, Florida, USA                                      541,686*
+Neckarzimmern, Germany                                    1083,790*
+Neptune, NJ, USA                                           459,790*
+Newcastle, Australia                                      1925,316*
+Newport News, Virginia, USA                                605,720*
+New York                                                   619,738*
+Nidda, Germany                                            1085,790*
+Nittendorf, Germany                                       1106,781*
+Noordwijk, The Netherlands                                1066,809*
+Norrahammar, Sweden                                       1119,839*
+Norwich, Norfolk, UK                                      1055,806*
+Novopolock, Belarus                                       1211,822*
+Novosibirsk, Russia                                       1511,797*
+
+* O * (12)
+
+Oklahoma City, Oklahoma, USA                               480,711*
+Oldenburg, Germany                                        1081,809*
+Oliver, British Columbia, Canada                           342,792*
+Omaha, Nebraska                                            510,736*
+Omsk, Russia                                              1466,834*
+Oostzaan, The Netherlands                                 1069,810*
+Orel, Russia                                              1255,816*
+Orenburg, Russia                                          1356,805*
+Oslo, Norway                                              1102,849*
+Ostersund, Sweden                                         1132,876*
+Oulu, Finland                                             1189,877*
+Oviedo, Espa¤a                                            1019,753*
+
+* P * (17)
+
+Padang, West Sumatra, Indonesia                           1627,493*
+Palo Alto, California                                      334,723*
+Paris, France                                             1059,782*
+Patrick Springs, Virginia, USA                             582,707*
+Pavia, Italy                                              1094,762*
+Peach Orchard, MO, USA                                     523,719*
+Perth, Western Australia                                  1713,312*
+Pittsburgh, Western Pennsylvania, USA                      588,741*
+Pivka, Slovenia                                           1128,765*
+Phoenix, AZ, USA                                           398,699*
+Polock, Belarus                                           1205,820*
+Poplar, Wisconsin, USA                                     513,776*
+Portland, Oregon, USA                                      334,767*
+Porto Alegre, Rio Grande do Sul, Brazil                    757,336*
+Pretoria, South Africa                                    1198,358*
+Pskov, Russia                                             1205,837*
+Putten, The Netherlands                                   1064,791*
+
+* Q * (1)
+
+Quebec, Canada                                             634,773*
+
+* R * (14)
+
+Raymond, New Hampshire                                     643,765*
+Redcliffe, Queensland, Australia                          1935,343*
+Regina, Saskatchewan, Canada                               443,802*
+Reno, Nevada, USA                                          353,729*
+Rheinbach, Germany                                        1112,799*
+Ribeirao Pires, Brasil                                     786,370*
+Richmond, Texas, USA                                       494,673*
+Riga, Latvia                                              1184,829*
+Rio de Janeiro, Brasil                                     801,373*
+Rochester, MN, USA                                         501,755*
+Rome, Italy                                               1118,746*
+Ronda, Malaga, Espa¤a                                     1022,718*
+Rotterdam, The Netherlands                                1065,804*
+Royal Oak, Michigan                                        565,747*
+
+* S * (30)
+
+Salcedo, Republica Dominicana                              643,614*
+Salt Lake City, Utah                                       397,739*
+Samara, Russia                                            1331,814*
+San Diego, California, USA                                 367,694*
+Sandy, Utah, USA                                           390,738*
+San Francisco, California                                  332,726*
+San Jose, California, USA                                  349,707*
+Santiago de Chile                                          635,310*
+Santiago de Compostela, Espa¤a                            1002,750*
+Sao Jose dos Campos, Brasil                                786,372*
+Sao Paulo, Brasil                                          784,373*
+Scottsdale, AZ, USA                                        400,696*
+Seattle, Washington                                        338,780*
+Seoul, South Korea                                        1783,718*
+Sevilla, Espa¤a                                           1015,721*
+Sydney, New South Wales                                   1919,308*
+Singapore                                                 1645,509*
+Skien, South Norway                                       1098,845*
+Spiez, Switzerland                                        1092,778*
+Springfield, Ohio, USA                                     570,726*
+Stavanger, Norway                                         1073,842*
+Steger, IL                                                 538,741*
+Sterksel, The Netherlands                                 1056,790*
+St. George, Utah, USA                                      378,724*
+St. Louis, Missouri                                        523,731*
+St. Petersburg, Russia                                    1216,847*
+Stockholm, Sweden                                         1146,848*
+Stow, Massachusetts, USA                                   634,749*
+Stuttgart, Germany                                        1104,785*
+Sumrall, MS, USA                                           528,685*
+
+* T * (16)
+
+Taichung, Taiwan, ROC                                     1743,644*
+Tarko-Sale, Russia                                        1487,878*
+Taufkirchen, Germany                                      1098,773*
+Telde, Espa¤a                                              961,664*
+Terrasa, Espa¤a                                           1050,742*
+Thessaloniki, Greece                                      1171,741*
+Thousand Oaks, California, USA                             350,708*
+Tokio,Japan                                               1857,709*
+Tomsk, Russia                                             1426,827*
+Torino, Piemonte, Italia                                  1089,768*
+Toronto, Canada                                            582,758*
+Townsville, Australia                                     1896,390*
+Trondheim, Norway                                         1105,873*
+Trumbull, Southwestern Connecticut                         627,740*
+Tula, Russia                                              1257,821*
+Tustin, Los Angeles, USA                                   372,690*
+
+* U * (2)
+
+Umea, North Sweden                                        1155,869*
+Uppsala, Sweden                                           1122,861*
+
+* V * (10)
+
+Valencia, Espa¤a                                          1048,734*
+Vamos, Crete, Greece                                      1181,708*
+Vancouver, BC, Canada                                      321,785*
+Vigo, Espa¤a                                              1001,747*
+Vila Real, Portugal                                       1006,739*
+Villafranca, Italy                                        1101,763*
+Vitebsk, Belarus                                          1227,813*
+Volhov, Russia                                            1228,851*
+Volzhsky, Russia                                          1303,789*
+Voronezh, Russia                                          1279,786*
+
+* W * (12)
+
+Waltham, Mass. USA                                         636,753*
+Washington DC, USA                                         607,731*
+Waxhaw, North Carolina, USA                                578,716*
+Wesel, Germany                                            1086,790*
+Whitehorse, Canada                                         261,870*
+Wichita, Kansas, USA                                       482,725*
+Wien, Austria                                             1130,778*
+Williamson, West Virginia, USA                             579,720*
+Williamsville, New York, USA                               596,752*
+Wilmington, Delaware, USA                                  617,735*
+Winnipeg, Manitoba, Canada                                 484,790*
+Wurzburg, Germany                                         1093,791*
+
+* Y * (2)
+
+Yorktown, Virginia, USA                                    607,719*
+Youngstown, Alberta, Canada                                402,812*
+
+* Z * (3)
+
+Zaragoza, Espa¤a                                          1042,744*
+Zagreb, Croatia                                           1129,765*
+Zug, Switzerland                                          1081,797*

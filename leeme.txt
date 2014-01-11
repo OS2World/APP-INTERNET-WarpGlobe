@@ -1,0 +1,201 @@
+		WarpGLOBE
+
+WarpGLOBE es un programa que muestra un globo terraqueo en el escritorio, y pinta sobre el las ciudades en las que hay algun usuarios de OS/2. Tambien lo sombrea de acuerdo a la iluminacion que recibiria del sol. El usuario puede escoger que parte del globo quiere ver. La imagen se refresca en un intervalo definido por el usuario. Es similar a otro programa que hay para Linux, pero este es mas chulo :-)
+
+RENUNCIA
+
+Este programa es FreeWare, y se distribuye sin ninguna garantia, de ningun tipo, bajo licencia GPL. Usalo bajo tu propia responsabilidad :-)
+
+COMO USAR EL PROGRAMA
+
+Para ejecutar WarpGLOBE necesitaras tener instalado el runtime del EMX, versi¢n 0.9c (que viene en el fichero EMXRT.ZIP, disponible en multiples FTP sites).
+
+Existe un fichero, GLOBEUSR.ZIP, que se encuentra disponible £nicamente en la p gina WEB del autor, y que se actualiza cada vez que se reciben nuevas ciudades. Conviene revisar la p gina regularmente y descomprimir dicho fichero en el directorio de WarpGLOBE, de modo que aparezcan las nuevas ciudades. El fichero USERS.NFO que viene en GLOBE.ZIP puede estar desfasado.
+
+La p gina del autor est  en:
+
+	http://www.arrakis.es/~scostas/OS2/globe.htm
+
+Y en ingles:
+
+	http://www.arrakis.es/~scostas/OS2/globeeng.htm
+
+Tienes que descomprimir el fichero GLOBE.ZIP en un directorio, y a continuaci¢n descomprimir GLOBE11.ZIP en el mismo directorio, permitiendo que sobreescriba los ficheros. Una vez hecho esto, ya puedes ejecutar WarpGLOBE. La primera vez te saldra un mensaje diciendo 'Config file old, not found or incorrect. Creating one'. Esto es totalmente normal. Pulsa una tecla y aparecera el menu de opciones. Si quieres que WarpGLOBE sea ejecutado siempre que el sistema sea arrancado, ejecuta el programa ADDWPS. Este creara un icono en la carpeta de Inicio.
+
+	ATENCION!: No uses la opcion DETACH para lanzar WarpGLOBE. Puede no funcionar correctamente. Si quieres que no aparezca ninguna ventana, activa la opcion de 'Iniciar minimizado' en el cuaderno de valores de la opcion 'Propiedades' del icono del programa.
+
+	ADDWPS es un programa con licencia, la cual reproduzco a continuacion por motivos legales:
+
+AddWPS was written by Michael Douglass to be used for any program which would like to support OS/2's Workplace Shell.  AddWPS will instantly add folders and programs to your OS/2 WPS for you to use WarpGLOBE under OS/2.  You should have no problems using AddWPS as long as it was configured correctly by the author of WarpGLOBE  Note:  Any and all damage caused by AddWPS is not the fault of Michael Douglass. -Use at your own risk-
+
+AddWPS v1.0 Copyright 1994 Michael Douglass
+
+	Puedes ver y modificar los parametros del programa en el menu. Las opciones son las siguientes:
+
+	GMT: indica la diferencia entre la hora local y la hora solar sobre el meridiano de Greenwich. Hay que poner el valor inverso al de ajuste. Esto es, si en nuestra ciudad tenemos GMT+5, hay que poner -5. Si es GMT-3, hay que poner 3. La raz¢n de no usar la variable TZ es que, a£n con ella, es necesario poder realizar ajustes manuales.
+
+	Earth angle (o Sun angle si la opcion 'static sun' est  activa): indica el numero de grados que se debe rotar la tierra. Si quieres ver siempre una zona fija de esta, ajusta el valor para que se vea la parte que desees. Con 0 queda centrado el meridiano de GreenWich; con 90, quedan centradas Norte y Sur America. Este valor afecta tanto si la opcion 'Static sun' esta activa como si no.
+
+	Cities diameter: especifica el tama¤o de los puntos que representan las ciudades. Si se especifica 0, no se pintara ninguna ciudad.
+
+	Globe diameter: especifica el tama¤o del globo terr queo. Puede medir hasta dos pixels menos que la resoluci¢n vertical de la pantalla.
+
+	Startup delay: tiempo en segundos que espera el programa antes de empezar a funcionar cuando se ejecuta. Se ha incluido porque al ser arrancado a la vez que el sistema operativo, en ordenadores muy r pidos, WarpGLOBE puede pedir al WPShell que pinte un nuevo fondo ANTES de que este halla terminado de arrancar, con lo que el programa se quedar  bloqueado. Dandole un valor adecuado se arreglar  este problema.
+
+	Refresh every: indica el periodo de refresco en minutos. Cada n minutos la imagen sera repintada de nuevo. Esto no se hace de forma continua para evitar consumir demasiada CPU.
+
+	Static sun: si activamos esta opcion, la zona iluminada se quedar  quieta y sera la imagen de la tierra la que gire.
+
+	Paint stars: si activamos esta opcion, se pintaran estrellas en el fondo de la imagen.
+
+	Ambient light: este valor, comprendido entre 0 y 99, indica la cantidad de luz ambiental que se sumara a las partes oscuras del planeta, de modo que no aparezca negro sino tenuemente iluminado.
+
+	Idle mode: indica si el programa se ejecutara con prioridad normal (NO) o prioridad desocupada (YES). En el primer caso puede notarse el 'tiron' de CPU cada vez que el programa recalcula una imagen, si bien siempre tardara muy poco tiempo; en el segundo caso, el programa aprovechara los tiempos muertos del procesador, con lo que el consumo de CPU sera, a todos los efectos, totalmente nulo.
+
+	Stars density: indica la cantidad de estrellas que pintara el programa. Puede valer entre 1 y 10.000.
+
+	Exit mode: indica si, al salir del programa, se conservara el fondo o no. Si esta en modo 'save background', la imagen de fondo actual sera renombrada a ZGLOBE.BMP y se saldra tal cual del programa. Si esta en modo 'clear background', la imagen sera borrada del disco y se pondra el escritorio con el color por defecto.
+
+	Light intensity: determina la intensidad de luz del 'sol', de modo que se puede regular cuan brillante u oscura ser  la imagen del globo.
+
+	Stars intensity: determina la intensidad de luz de las estrellas, de modo que se pueden pintar m s o menos claras.
+
+	Status: esta linea especifica el estado del programa. Puede ser 'Sleeping', momento en que esta esperando a que transcurra el intervalo de tiempo y durante el cual no consume CPU, o bien 'Creating image', momento en que esta recalculando una imagen. Durante este segundo estado no se pueden modificar las opciones del programa.
+
+Debajo de estos parametros esta el menu que permite cambiarlos. Hay cuatro opciones extras, a saber:
+
+	Change background color: permite poner un color de fondo distinto del negro.
+
+	Change city coordinates: permite indicar las coordenadas de nuestra ciudad, de modo que el punto que la representa aparecer  en un color distinto. Los valores a usar est n en el fichero cities.txt.
+
+	Refresh background: redibuja la imagen. Util cuando cambiamos un parametro y queremos ver sus efectos sin esperar a que expire el periodo de refresco. Recuerda que el programa tarda algunos segundos en repintar la imagen, asi que no te impacientes.
+
+	End WarpGLOBE: finaliza el programa y vuelve a la linea de mandatos.	
+	
+WarpGLOBE lee la lista de usuarios cada vez que pinta el fondo, por lo que puedes alterar los ficheros sin tener que parar y relanzar el programa
+
+Por defecto, WarpGLOBE almacena la imagen creada en el mismo directorio en el que est  el ejecutable. Sin embargo, es posible especificar otro simplemente a¤adiendo en el CONFIG.SYS la l¡nea:
+
+	SET GLOBETMP=x:\midirectorio
+
+y reiniciando, siendo x la letra de la unidad donde se quieren guardar y midirectorio el directorio. Por ejemplo:
+
+	SET GLOBETMP=c:\tcpip\tmp
+
+Es conveniente que uses un modo de pantalla de 32768, 65536 o 16 millones de colores, pues con 256 colores los resultados no son excesivamente buenos (salvo que actives la opcion de 'Sensible a la paleta' en las opciones de configuracion de OS/2). Es un problema del Presentation Manager :-(
+
+Hay un problema extra: el Presentation Manager tiene una especie de cache donde almacena los bitmaps que se ponen como fondo, de modo que si cambiamos el contenido de una imagen (en el disco duro) y le indicamos que lo repinte, lo tomara de esa cache, y no del disco. Para solucionarlo, el programa graba cada imagen con un nombre distinto, borrando de cada vez la imagen anterior. Esta es la razon por la que, si se para el programa y se vuelve a ejecutar, es posible que ponga una imagen antigua en vez de la nueva. Refrescando la imagen un par de veces (opcion R del menu) se solucionara el problema.
+
+
+¨QUE HAY DE OTROS PLANETAS?
+
+Si tienes una imagen de otro planeta y quieres usarla en lugar de la imagen de la tierra, solo tienes que convertirla a formato PCX y grabarla en el directorio del programa con el nombre de MUNDO.PCX (haz antes una copia del anterior MUNDO.PCX, por supuesto). La imagen puede ser de 8 o de 24 bits por pixel y puede tener cualquier tama¤o. 
+
+
+TENGO PROBLEMAS
+
+Si WarpGLOBE no funciona correctamente, sigue estos pasos antes de escribirme:
+
+	-Comprueba la versi¢n de EMX que tienes instalada. Para ello, teclea EMXREV en una sesi¢n OS/2 de texto. Los n£meros tienen que ser superiores o iguales a 50 para que sea correcta (EMX 0.9c). Si alguno est  incorrecto, busca y elimina la DLL correspondiente en tu disco duro (a lo mejor la tienes repetida varias veces) y reinstala la correcta.
+
+	-Si esto est  correcto, borra GLOBE.CFG y rearranca el programa. Han surgido problemas con ficheros de versiones anteriores.
+
+	-No arranques el programa con DETACH. En algunos equipos ha dado problemas.
+
+Si despu‚s de probar esto sigue sin funcionar, escribeme para intentar solucionar el problema.
+
+
+COMO COLABORAR
+
+Si quieres colaborar, hechale un vistazo primero a la pagina web y mira si tu ciudad esta en la lista de las ciudades actuales. Si no es asi, haz lo siguiente:
+
+	*Carga la imagen MUNDO.PCX con el visor de imagenes de OS/2 (simplemente abre el icono de la unidad C y haz doble click sobre su icono).
+
+	*Pon el cursor del raton encima de tu ciudad y toma nota de las coordenadas X-Y que devuelve el programa. No te preocupes si el mapa est  boca abajo. Ya calcular‚ yo las coordenadas correctas.
+
+	*Enviame un e-mail con el nombre de tu ciudad, el pais, y las coordenadas anteriores. De esta forma, tu ciudad sera incluida en el siguiente GLOBEUSR.ZIP.
+
+Recuerda que el fichero CITIES.TXT (dentro de GLOBEUSR.ZIP) sirve solo como referencia. El fichero importante (pues contiene las coordenadas) es USERS.NFO.
+
+
+HISTORIA
+
+Beta 1: primera version publica
+
+Beta 2: WarpGLOBE bloqueaba el acceso al fichero de usuarios, por lo que no se podia actualizar la lista de ciudades mientras estaba en funcionamiento. Corregido.
+
+Beta 3: Uso de memoria dinamica en vez de estatica para almacenar el bitmap de salida, con lo que el uso de memoria es menor.
+
+	Optimizacion con punteros, con lo que el consumo de CPU es menor.
+
+	El  rea de memoria del bitmap es borrado entre cada refresco de imagen, con lo que se eliminan puntos espureos en los bordes del globo.
+
+	Configuracion y control por menus
+
+	Se puede cambiar el tama¤o de los puntos de las ciudades, asi como el periodo de refresco y el nivel de luz ambiental para la zona oscura del planeta.
+
+	Puede pintar estrellas en el espacio de fondo.
+
+	Puede dejar fijo el haz de luz del sol y que sea la tierra la que gire.
+
+Beta 4: La ultima imagen creada es borrada despues de pasado el ciclo, con lo que se asegura que sera repintada correctamente.
+
+Beta 5: Captura las se¤ales de cierre de aplicacion, con lo que no deja ficheros residuales en el directorio.
+
+Beta 6: En sistemas sin 4OS2 no se puede obtener el path del programa mediante las llamadas estandar de C. Corregido usando llamadas del API de OS/2 (DosQueryCurrentDisk y DosQueryCurrentDir).
+
+Beta 7: Menor tama¤o del ejecutable.
+
+	Mejor captura de la se¤al de finalizacion, con lo que el programa sale mas limpiamente.
+
+	Puede ejecutarse en prioridad desocupada (Idle time), con lo que el consumo de CPU es nulo.
+
+	Permite cambiar la cantidad de estrellas a pintar.
+
+Beta 8: Admite cualquier tama¤o para la imagen fuente del planeta, asi como que esta sea de 8 o de 24 bits.
+
+	Se tiene en cuenta el angulo de rotacion incluso con la opcion 'Static sun' activa, de modo que el sol no tiene por que quedar justo en frente nuestra como en versiones anteriores, sino que podemos tener siempre medio iluminada la tierra.
+
+	Permite conservar el fondo del escritorio despues de salir del programa.
+
+	Incluye un instalador que crea un objeto de programa en la carpeta de Inicio, de tal modo que WarpGLOBE se arranca automaticamente al encender el ordenador.
+
+Version 1.0: es literalmente la beta 8,pero en un nuevo ZIP.
+
+Version 1.1: Detecta autom ticamente la resoluci¢n de nuestra pantalla.
+
+	Permite cambiar el diametro del globo.
+
+	Permite esperar un retardo inicial, con lo que se eliminan problemas con el PM.
+
+	No pinta el cursor en pantalla.
+
+	Permite cambiar la intensidad de luz del sol y las estrellas.
+
+	Permite usar un directorio distinto al del programa para grabar las im genes.
+
+Version 1.2: Permite cambiar el color del fondo.
+
+	Permite especificar la ciudad propia, de modo que se pinta de un color distinto.
+
+
+AGRADECIMIENTOS
+
+A Pablo Costas Serrano, que me consiguio la imagen de la tierra.
+
+A la gente que hizo esa imagen (desgraciadamente, no se quienes son).
+
+A Johannes Martin, autor de un codigo de ejemplo para cambiar el fondo del escritorio.
+
+A Craig Colby, que reescribio las instrucciones en ingles.
+
+A MaQui, por el excelente icono.
+
+Y a toda la gente que ha colaborado enviando su ciudad y sugerencias.
+
+
+Sergio Costas Rodriguez (RASTER)
+
+scostas@arrakis.es
+http://www.arrakis.es/~scostas
+FidoNet: 2:348/613.4
